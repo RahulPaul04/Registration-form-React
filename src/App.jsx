@@ -66,7 +66,8 @@ function App() {
       }
     }
     else if(name == "address"){
-      if(value.match(/^[a-zA-Z0-9\s.]*[^.]$/
+      if(value.match(/^[a-zA-Z0-9\s.,/()]*[^.,/()]$/
+
 
 
       ) || value == ""){
