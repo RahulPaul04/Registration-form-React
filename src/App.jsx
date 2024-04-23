@@ -148,7 +148,7 @@ function App() {
           aria-describedby="modal-modal-description"
           className='d-flex justify-content-center align-items-center'
         >
-          <div className='mx-auto rounded shadow p-5' style={{width:"60%",backgroundColor:"white",color:"black"}}>
+          <div className='mx-auto rounded shadow p-5 w-md-60 w-95' style={{backgroundColor:"white",color:"black"}}>
             <p className="modal-text">Name : {Name}</p>
             <p className="modal-text">Mobile Number : {mobile}</p>
             <p className="modal-text">Date of Birth : {dtb}</p>
@@ -167,7 +167,7 @@ function App() {
         </Modal>
 
 
-        <div className="form col-lg-6 col-md-8 col-10 mx-auto">
+        <div className="form col-lg-6 col-md-8 col-10 mx-auto mt-3 mb-3">
           <h2  className="heading p-4">REGISTRATION FORM</h2>
           <form action="" className='mb-5'>
             <div className="d-md-flex ms-3 me-3 gap-3">
@@ -276,8 +276,8 @@ function App() {
             </div>
             </div>
             <div className="d-md-flex ms-3 me-3 gap-3 mt-3">
-              <Button onClick={submit} type='submit' style={{width:'50%',height:'70px'}} className='bg-dark' variant="contained">Submit</Button>
-              <Button onClick={reset}  style={{width:'50%',height:'70px'}} variant="outlined">CANCEL</Button>
+              <div className='mt-3 w-100 text-center'><Button onClick={submit} type='submit' style={{width:'100%',height:'70px'}} className='bg-dark' variant="contained">Submit</Button></div>
+              <div className='mt-3 w-100 text-center'><Button onClick={reset}  style={{width:'100%',height:'70px'}} variant="outlined">CANCEL</Button></div>
           
             </div>
           </form>
