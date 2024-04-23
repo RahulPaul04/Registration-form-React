@@ -12,4 +12,12 @@
 
 .warning{
   font-size: 12px;
+  position: relative;
+}
+
+.fill-filed{
+  position: absolute;
+  left: 0;
+  top: 0;
+
 }
